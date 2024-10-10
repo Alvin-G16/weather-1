@@ -19,6 +19,10 @@ p {
   font-size: 25px;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 h2 {
   font-size: 36px;
 }
@@ -33,6 +37,17 @@ h1 {
   position: relative;
   background-color: rgba(0,0,0,0.4);
   color: white;
+}
+
+.location-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.time {
+  text-align: right;
 }
 
 .app:before {
@@ -83,9 +98,9 @@ h1 {
 
 .app .description {
   position: relative;
-  right: -90%;
+  margin-top: -16%;
   transform-origin: 0 0;
-  transform: rotate(270deg);
+  transform: rotate(0deg);
 }
 
 .app .bottom {
